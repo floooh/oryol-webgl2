@@ -71,7 +71,7 @@
 - name: VertexCapture
   desc: Vertex capture (aka transform feedback
   type: emscripten
-  image: /Users/floh/projects/oryol/code/Samples/VertexCapture/none
+  image: /Users/floh/projects/oryol/code/Samples/VertexCapture/VertexCapture.jpg
   src: VertexCapture/VertexCapture.cc
 - name: DDSTextureLoading
   desc: Load and render various DDS texture formats
