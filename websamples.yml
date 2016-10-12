@@ -33,6 +33,11 @@
   type: emscripten,android,pnacl
   image: /Users/floh/projects/oryol/code/Samples/SimpleRenderTarget/SimpleRenderTarget.jpg
   src: SimpleRenderTarget/SimpleRenderTarget.cc
+- name: MultipleRenderTarget
+  desc: Demonstrate MRT rendering
+  type: emscripten,android,pnacl
+  image: /Users/floh/projects/oryol/code/Samples/MultipleRenderTarget/none
+  src: MultipleRenderTarget/MultipleTarget.cc
 - name: InfiniteSpheres
   desc: Infinite recursive spheres
   type: emscripten,android,pnacl
@@ -113,8 +118,3 @@
   type: emscripten,pnacl
   image: /Users/floh/projects/oryol/code/Samples/IOQueueSample/none
   src: IOQueueSample/IOQueueSample.cc
-- name: Julia
-  desc: Fractal demo
-  type: emscripten,pnacl,android
-  image: /Users/floh/projects/oryol/code/Samples/Julia/none
-  src: Julia/Julia.cc
