@@ -36,7 +36,7 @@
 - name: MultipleRenderTarget
   desc: Demonstrate MRT rendering
   type: emscripten,android,pnacl
-  image: /Users/floh/projects/oryol/code/Samples/MultipleRenderTarget/none
+  image: /Users/floh/projects/oryol/code/Samples/MultipleRenderTarget/MultipleRenderTarget.jpg
   src: MultipleRenderTarget/MultipleTarget.cc
 - name: InfiniteSpheres
   desc: Infinite recursive spheres
