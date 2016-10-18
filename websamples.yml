@@ -78,6 +78,11 @@
   type: emscripten
   image: /Users/floh/projects/oryol/code/Samples/VertexCapture/VertexCapture.jpg
   src: VertexCapture/VertexCapture.cc
+- name: VolumeTexture
+  desc: Demonstrate 3D texture usage
+  type: emscripten
+  image: /Users/floh/projects/oryol/code/Samples/VolumeTexture/VolumeTexture.jpg
+  src: VolumeTexture/VolumeTexture.cc
 - name: DDSTextureLoading
   desc: Load and render various DDS texture formats
   type: emscripten,pnacl,android
