@@ -83,6 +83,11 @@
   type: emscripten
   image: /Users/floh/projects/oryol/code/Samples/VolumeTexture/VolumeTexture.jpg
   src: VolumeTexture/VolumeTexture.cc
+- name: ArrayTexture
+  desc: Demonstrate array texture usage
+  type: emscripten
+  image: /Users/floh/projects/oryol/code/Samples/ArrayTexture/ArrayTexture.jpg
+  src: ArrayTexture/ArrayTexture.cc
 - name: DDSTextureLoading
   desc: Load and render various DDS texture formats
   type: emscripten,pnacl,android
