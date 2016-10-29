@@ -38,6 +38,11 @@
   type: emscripten,android,pnacl
   image: /Users/floh/projects/oryol/code/Samples/MultipleRenderTarget/MultipleRenderTarget.jpg
   src: MultipleRenderTarget/MultipleTarget.cc
+- name: RenderToCubeMap
+  desc: Render to cubemap faces
+  type: emscripten
+  image: /Users/floh/projects/oryol/code/Samples/RenderToCubeMap/RenderToCubeMap.jpg
+  src: RenderToCubeMap/RenderToCubeMap.cc
 - name: InfiniteSpheres
   desc: Infinite recursive spheres
   type: emscripten,android,pnacl
