@@ -8,6 +8,11 @@
   type: emscripten,android,pnacl
   image: /Users/floh/projects/oryol/code/Samples/Triangle/Triangle.jpg
   src: Triangle/Triangle.cc
+- name: Quad
+  desc: Render a quad with vertex-indices
+  type: emscripten,android,pnacl
+  image: /Users/floh/projects/oryol/code/Samples/Quad/Quad.jpg
+  src: Quad/Quad.cc
 - name: Shapes
   desc: Shapes with random vertex colors, created with ShapeBuilder class
   type: emscripten,pnacl,android
@@ -78,11 +83,6 @@
   type: emscripten,android,pnacl
   image: /Users/floh/projects/oryol/code/Samples/VertexTexture/VertexTexture.jpg
   src: VertexTexture/VertexTexture.cc
-- name: VertexCapture
-  desc: Vertex capture (aka transform feedback
-  type: emscripten
-  image: /Users/floh/projects/oryol/code/Samples/VertexCapture/VertexCapture.jpg
-  src: VertexCapture/VertexCapture.cc
 - name: VolumeTexture
   desc: Demonstrate 3D texture usage
   type: emscripten
@@ -113,6 +113,16 @@
   type: emscripten,pnacl,android
   image: /Users/floh/projects/oryol/code/Samples/TestInput/TestInput.jpg
   src: TestInput/TestInput.cc
+- name: GamepadExplorer
+  desc: Show raw gamepad input
+  type: emscripten
+  image: /Users/floh/projects/oryol/code/Samples/GamepadExplorer/GamepadExplorer.jpg
+  src: GamepadExplorer/GamepadExplorer.cc
+- name: NativeTexture
+  desc: Demonstrates native 3D-API texture usage
+  type: emscripten,pnacl,android
+  image: /Users/floh/projects/oryol/code/Samples/NativeTexture/NativeTexture.jpg
+  src: NativeTexture/NativeTexture.cc
 - name: ResourceStress
   desc: Resource loading stresstest
   type: emscripten,pnacl,android
